@@ -1,0 +1,181 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "present from sherwin",
+      "intents": [
+        {
+          "name": "PresentIntent",
+          "slots": [
+            {
+              "name": "Present",
+              "type": "LIST_OF_PRESENTS"
+            }
+          ],
+          "samples": [
+            "how can I build a {Present}",
+            "how can I build an {Present}",
+            "how can I build {Present}",
+            "how can I craft a {Present}",
+            "how can I craft an {Present}",
+            "how can I craft {Present}",
+            "how can I get a {Present}",
+            "how can I get an {Present}",
+            "how can I get {Present}",
+            "how can I make a {Present}",
+            "how can I make an {Present}",
+            "how can I make {Present}",
+            "how can you build a {Present}",
+            "how can you build an {Present}",
+            "how can you build {Present}",
+            "how can you craft a {Present}",
+            "how can you craft an {Present}",
+            "how can you craft {Present}",
+            "how can you get a {Present}",
+            "how can you get an {Present}",
+            "how can you get {Present}",
+            "how can you make a {Present}",
+            "how can you make an {Present}",
+            "how can you make {Present}",
+            "how do I build a {Present}",
+            "how do I build an {Present}",
+            "how do I build {Present}",
+            "how do I craft a {Present}",
+            "how do I craft an {Present}",
+            "how do I craft {Present}",
+            "how do I get a {Present}",
+            "how do I get an {Present}",
+            "how do I get {Present}",
+            "how do I make a {Present}",
+            "how do I make an {Present}",
+            "how do I make {Present}",
+            "how do you build a {Present}",
+            "how do you build an {Present}",
+            "how do you build {Present}",
+            "how do you craft a {Present}",
+            "how do you craft an {Present}",
+            "how do you craft {Present}",
+            "how do you get a {Present}",
+            "how do you get an {Present}",
+            "how do you get {Present}",
+            "how do you make a {Present}",
+            "how do you make an {Present}",
+            "how do you make {Present}",
+            "how is a {Present} built",
+            "how is a {Present} crafted",
+            "how is a {Present} made",
+            "how is an {Present} built",
+            "how is an {Present} crafted",
+            "how is an {Present} made",
+            "how is {Present} built",
+            "how is {Present} crafted",
+            "how is {Present} made",
+            "how {Present} is made",
+            "recipe for a {Present}",
+            "recipe for an {Present}",
+            "recipe for {Present}",
+            "recipes for a {Present}",
+            "recipes for an {Present}",
+            "recipes for {Present}",
+            "what are the ingredients for a {Present}",
+            "what are the ingredients for an {Present}",
+            "what are the ingredients for {Present}",
+            "what do I need for a {Present}",
+            "what do I need for an {Present}",
+            "what do I need for {Present}",
+            "what do I need to build a {Present}",
+            "what do I need to build an {Present}",
+            "what do I need to build {Present}",
+            "what do I need to craft a {Present}",
+            "what do I need to craft an {Present}",
+            "what do I need to craft {Present}",
+            "what do I need to get for a {Present}",
+            "what do I need to get for an {Present}",
+            "what do I need to get for {Present}",
+            "what do I need to get to build a {Present}",
+            "what do I need to get to build an {Present}",
+            "what do I need to get to build {Present}",
+            "what do I need to get to craft a {Present}",
+            "what do I need to get to craft an {Present}",
+            "what do I need to get to craft {Present}",
+            "what do I need to get to make a {Present}",
+            "what do I need to get to make an {Present}",
+            "what do I need to get to make {Present}",
+            "what do I need to have to build a {Present}",
+            "what do I need to have to build an {Present}",
+            "what do I need to have to build {Present}",
+            "what do I need to have to craft a {Present}",
+            "what do I need to have to craft an {Present}",
+            "what do I need to have to craft {Present}",
+            "what do I need to have to make a {Present}",
+            "what do I need to have to make an {Present}",
+            "what do I need to have to make {Present}",
+            "what do I need to make a {Present}",
+            "what do I need to make an {Present}",
+            "what do I need to make {Present}",
+            "what do you need for a {Present}",
+            "what do you need for an {Present}",
+            "what do you need for {Present}",
+            "what ingredients do I need to build a {Present}",
+            "what ingredients do I need to build an {Present}",
+            "what ingredients do I need to build {Present}",
+            "what ingredients do I need to craft a {Present}",
+            "what ingredients do I need to craft an {Present}",
+            "what ingredients do I need to craft {Present}",
+            "what ingredients do I need to make a {Present}",
+            "what ingredients do I need to make an {Present}",
+            "what ingredients do I need to make {Present}",
+            "what is in a {Present}",
+            "what is in an {Present}",
+            "what is in {Present}",
+            "what is the recipe for a {Present}",
+            "what is the recipe for an {Present}",
+            "what is the recipe for {Present}",
+            "what's in a {Present}",
+            "what's in an {Present}",
+            "what's in {Present}",
+            "what's the recipe for a {Present}",
+            "what's the recipe for an {Present}",
+            "what's the recipe for {Present}",
+            "how to craft {Present}",
+            "how to craft a {Present}",
+            "how to craft an {Present}",
+            "how to make a {Present}",
+            "how to make an {Present}",
+            "how to make {Present}",
+            "how to build a {Present}",
+            "how to build an {Present}",
+            "how to build {Present}",
+            "how to get a {Present}",
+            "how to get an {Present}",
+            "how to get {Present}"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent"
+        },
+        {
+          "name": "AMAZON.HelpIntent"
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        },
+        {
+          "name": "AMAZON.CancelIntent"
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "mom"
+              }
+            }
+
+          ],
+          "name": "LIST_OF_PRESENTS"
+        }
+      ]
+    }
+  }
+}
