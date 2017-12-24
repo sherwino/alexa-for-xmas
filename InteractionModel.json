@@ -170,20 +170,55 @@
       "name": "LIST_OF_PRESENTS",
       "values": [
         {
-          "id": null,
+          "id": "MOM",
           "name": {
-            "value": "snow golem",
-            "synonyms": []
+            "value": "mom",
+            "synonyms": ["mom's", "mom's first"]
           }
         },
         {
-          "id": 1,
+          "id": 2,
           "name": {
-            "value": "mom",
-            "synonyms": ["nadia"]
+            "value": "mom's second",
+            "synonyms": ["mom's second", "nadia's"]
           }
         },
-      ]
-    }
+        {
+          "id": 3,
+          "name": {
+            "value": "rosy",
+            "synonyms": ["rosy's", "rosys first"]
+          }
+        },
+        {
+          "id": 4,
+          "name": {
+            "value": "rosy's second",
+            "synonyms": ["second rosy", "rosys second"]
+          }
+        },
+        {
+          "id": 5,
+          "name": {
+            "value": "jerel",
+            "synonyms": ["Jerel", "jarel"]
+          }
+        },
+        {
+          "id": 6,
+          "name": {
+            "value": "jerel's second",
+            "synonyms": ["jerels second", "jarel's second"]
+          }
+        },
+        {
+          "id": 7,
+          "name": {
+            "value": "rosy's third",
+            "synonyms": ["rosys third", "rosie's second"]
+          }
+        }
   ]
+}
+]
 }

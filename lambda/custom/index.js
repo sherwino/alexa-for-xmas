@@ -20,23 +20,23 @@ const languageStrings = {
         translation: {
             PRESENTS: present.PRESENTS_EN_US,
             SKILL_NAME: 'your christmas presents',
-            WELCOME_MESSAGE: "Ho ho ho Merry Christmas, this year Alexa is going to help open %s. You could ask something like, what did Rosy get?",
+            WELCOME_MESSAGE: "Ho ho ho, Merry Christmas, this year Alexa is going to help open %s. You could ask something like, what did Mia get?",
             WELCOME_REPROMPT: 'Go ahead ask me. I know what you got for Christmas.',
-            DISPLAY_CARD_TITLE: '%s  - Presents for %s.',
-            HELP_MESSAGE: "You can ask questions such as, you could ask something like, what did Rosy get?, or, you can say exit...You get it bro?",
+            DISPLAY_CARD_TITLE: '%s  - present for %s.',
+            HELP_MESSAGE: "You could ask something like, what did Mia get?, or, you can say stop...KA PICHE?",
             HELP_REPROMPT: "Are you slow?",
             STOP_MESSAGE: 'Peace! I\'m out of here',
-            PRESENTS_REPEAT_MESSAGE: 'Ok if you want you could ask me to repeat it',
+            PRESENTS_REPEAT_MESSAGE: 'Ok if you want, ask me to repeat it',
             PRESENTS_NOT_FOUND_MESSAGE: "I\'m sorry, looks like you got a lump of coal this year",
-            PRESENTS_NOT_FOUND_WITH_ITEM_NAME: 'you got a %s. ',
+            PRESENTS_NOT_FOUND_WITH_ITEM_NAME: '...are you sure got %s a present?',
             PRESENTS_NOT_FOUND_WITHOUT_ITEM_NAME: '...like it is not even in my list. ',
-            PRESENTS_NOT_FOUND_REPROMPT: '...Dude but...I really can\'t find your present, try again or maybe you just didn\'t get anything',
+            PRESENTS_NOT_FOUND_REPROMPT: '...Dude, I really can\'t find it, try again, or maybe this means you just didn\'t get anything',
         },
     },
     'en-US': {
-        translation: {
+      translation: {
             PRESENTS: present.PRESENTS_EN_US,
-            SKILL_NAME: 'your christmas presents!',
+            SKILL_NAME: 'your christmas presents',
         },
       }
 };
